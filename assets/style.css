@@ -1,14 +1,15 @@
 *{
   font-family:"Comic Sans MS";
-  color:green;
-
-    padding: 0px !important;
-    margin: 0px ;
+  color:black;
 }
 body{
-  width:100%;
+  padding: 0px ;
+  margin: 0px ;
+  width:100vw;
   height: 100vh;
-  background-color: red;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
 }
 html{
   width:100vw;
@@ -35,10 +36,12 @@ html{
   height:100%;
   width:50%;
   margin-left: 5%;
-
-
 }
 
+select{
+  padding: 0px !important;
+  margin: 0px ;
+}
 .aboutme{
   width:50%;
   height :100%;
@@ -52,12 +55,28 @@ html{
 .about-content{
   display: flex;
 
-  height:auto;
+  height:100%;
 }
 #about-picture{
   background-image: url("stars.jpg");
-  width : 50%;
-  height:auto;
-  flex-grow: 2;
-  flex-basis: auto;
+  background-position: center;
+
+  background-size: cover;
+  height:100%;
+}
+#mainbox{
+  padding-bottom: 0;
+  padding
+margin: 10px;
+  width: 90%;
+  height:100%
+}
+#nav{
+  padding: 0px !important;
+  margin: 0px ;
+  background-color: lightgrey;
+  width:10%;
+  height: 100%;
+  position: absolute;
+
 }
