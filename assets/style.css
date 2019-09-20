@@ -22,6 +22,10 @@ html{
   width:100%;
 }
 
+
+h1{
+  background-color: grey;
+}
 .order{
 
   display: flex;
@@ -65,18 +69,21 @@ select{
   height:100%;
 }
 #mainbox{
-  padding-bottom: 0;
-  padding
-margin: 10px;
-  width: 90%;
+  padding-bottom: 0px;
+  padding-top:0px;
+  display: flex;
+  flex-direction:column;
+  align-content: flex-start;
+
+  width: 95%;
   height:100%
 }
 #nav{
   padding: 0px !important;
   margin: 0px ;
   background-color: lightgrey;
-  width:10%;
+  width:5%;
   height: 100%;
-  position: absolute;
+  position: sticky;
 
 }
